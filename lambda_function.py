@@ -32,7 +32,7 @@ def lambda_handler(event, context):
         
         # Add Watermark
         draw = ImageDraw.Draw(image)
-        text = "Candidates 2024 | Toronto"
+        text = "Candidates 2024 | Toronto | Photo by Eldar Azimov"
         
         # Calculate position (Bottom Right)
         width, height = image.size
