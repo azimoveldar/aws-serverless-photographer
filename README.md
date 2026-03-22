@@ -7,7 +7,7 @@
 ## Project Overview
 Processing high-resolution event photography manually is slow and unscalable. For the **FIDE Candidates Tournament 2024**, I built a fully automated **Event-Driven Serverless Pipeline** on AWS.
 
-The system automatically ingests photos from a source (Wikimedia Commons), resizes them for the web, applies a copyright watermark, stores metadata in a NoSQL database, and publishes them to a static portfolio website—**all in under 2 seconds per photo.**
+The system automatically ingests photos from a source ([Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Candidates_Tournament_2024)), resizes them for the web, applies a copyright watermark, stores metadata in a NoSQL database, and publishes them to a static portfolio website—**all in under 2 seconds per photo.**
 
 > **Note on Data Source:** All images processed in this project are my own original work, which I captured personally at the event and contributed to Wikimedia Commons.
 
